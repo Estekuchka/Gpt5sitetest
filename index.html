@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cidades do Mundo — Moderno & Elegante</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Cidades do Mundo</h1>
+      <nav class="nav">
+        <a href="#destinos">Destinos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Explore as cidades mais icônicas do planeta</h2>
+        <p>Guias rápidos, fotos inspiradoras e informações essenciais num design moderno e elegante.</p>
+        <a class="btn" href="#destinos">Ver destinos</a>
+      </div>
+    </section>
+
+    <section id="destinos" class="container grid">
+      <!-- Each card uses Unsplash dynamic queries so as to be ready-to-deploy without extra assets -->
+      <article class="card">
+        <img src="https://source.unsplash.com/1600x900/?tokyo,skyline" alt="Tóquio skyline">
+        <div class="card-body">
+          <h3>Tóquio, Japão</h3>
+          <p>Metrópole vibrante que mistura tradição e tecnologia — arranha-céus, templos e gastronomia excepcional.</p>
+          <a class="card-link" href="#tokyo">Saiba mais →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://source.unsplash.com/1600x900/?paris,eiffel" alt="Paris Eiffel Tower">
+        <div class="card-body">
+          <h3>Paris, França</h3>
+          <p>A capital da elegância: arte, arquitetura e cafés históricos em cada esquina.</p>
+          <a class="card-link" href="#paris">Saiba mais →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://source.unsplash.com/1600x900/?new-york,manhattan" alt="New York skyline">
+        <div class="card-body">
+          <h3>Nova Iorque, EUA</h3>
+          <p>O centro cultural e financeiro do mundo — arranha-céus, bairros icônicos e energia inigualável.</p>
+          <a class="card-link" href="#newyork">Saiba mais →</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://source.unsplash.com/1600x900/?rio-de-janeiro,sugarloaf" alt="Rio de Janeiro">
+        <div class="card-body">
+          <h3>Rio de Janeiro, Brasil</h3>
+          <p>Litoral impressionante, paisagens naturais e vida urbana animada — praias e montanhas em harmonia.</p>
+          <a class="card-link" href="#rio">Saiba mais →</a>
+        </div>
+      </article>
+    </section>
+
+    <section id="sobre" class="container about">
+      <h2>Sobre este site</h2>
+      <p>Um portfólio estático e elegante para apresentar cidades do mundo. Feito para ser hospedado facilmente (GitHub Pages, Netlify ou qualquer servidor estático).</p>
+      <ul>
+        <li>Design responsivo</li>
+        <li>Imagens carregadas via Unsplash (prontas para uso em demos)</li>
+        <li>Estrutura simples para personalização rápida</li>
+      </ul>
+    </section>
+
+    <section id="contato" class="container contact">
+      <h2>Contato</h2>
+      <p>Quer personalizar este site ou receber a versão com mais cidades? Me mande as cidades que quer e eu atualizo os arquivos.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Cidades do Mundo — Template pronto para deploy</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
